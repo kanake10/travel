@@ -5,7 +5,7 @@ Find cool places to visit via our Travel app
 
 * Technologies used
     * [Kotlin](https://kotlinlang.org/)
-    * [Compose](https://developer.android.com/jetpack/compose) Because **COMPOSE IS FINALLY STABLE**
+    * [Compose](https://developer.android.com/jetpack/compose) 
     * [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
     * [HILT](https://developer.android.com/training/dependency-injection/hilt-android)
     * [GSON](https://github.com/google/gson)
@@ -28,6 +28,6 @@ Find cool places to visit via our Travel app
 
 ## App Preview
 
-|<img src="https://github.com/kanake10/travel/blob/main/screenshots/email.png.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/locate.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/signin.png" width=250/>|
+|<img src="https://github.com/kanake10/travel/blob/main/screenshots/email.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/locate.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/signin.png" width=250/>|
 |:----:|:----:|:----:|
 
