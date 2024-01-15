@@ -28,6 +28,6 @@ Find cool places to visit via our Travel app
 
 ## App Preview
 
-|<img src="https://github.com/kanake10/travel/blob/main/screenshots/email.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/locate.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/signin.png" width=250/>|
-|:----:|:----:|:----:|
+|<img src="https://github.com/kanake10/travel/blob/main/screenshots/email.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/locate.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/signin.png" width=250/>|<img src="https://github.com/kanake10/travel/blob/main/screenshots/tripitaca.png" width=250/>|
+|:----:|:----:|:----:|:----:|
 
