@@ -86,4 +86,5 @@ dependencies {
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation ("com.google.accompanist:accompanist-pager:0.20.0")
     implementation ("androidx.compose.material3:material3:1.2.0-alpha03")
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.7")
 }
