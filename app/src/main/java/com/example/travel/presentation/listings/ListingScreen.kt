@@ -128,7 +128,7 @@ fun PropertyItem(property: Result, onItemClick: (Result) -> Unit) {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = " Price " + property.price.toString(),
+                    text = " Price: " + property.price.toString(),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurface,
                     fontSize = 15.sp,

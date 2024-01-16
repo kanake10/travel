@@ -23,6 +23,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.travel.presentation.details.BookNowScreen
+import com.example.travel.presentation.details.DatePickerCompose
 import com.example.travel.presentation.details.ListingsDetailScreen
 import com.example.travel.presentation.listings.ListingScreen
 import com.example.travel.presentation.sign_in.SignInScreen
@@ -113,7 +115,13 @@ class MainActivity : ComponentActivity() {
                             )
                         ) {
                             val id = it.arguments?.getInt("id")
-                            ListingsDetailScreen(id.toString())
+                            ListingsDetailScreen(navController,id.toString())
+                        }
+                        composable(route = "bookings"){
+                            BookNowScreen(navController= navController)
+                        }
+                        composable(route = "date_picker"){
+                            DatePickerCompose()
                         }
                     }
                 }
