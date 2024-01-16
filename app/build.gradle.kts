@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.example.travel"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.travel"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -85,4 +85,6 @@ dependencies {
     implementation ("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01" )
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation ("com.google.accompanist:accompanist-pager:0.20.0")
+    implementation ("androidx.compose.material3:material3:1.2.0-alpha03")
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.7")
 }
