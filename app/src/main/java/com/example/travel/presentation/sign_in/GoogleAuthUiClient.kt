@@ -10,11 +10,13 @@ import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.tasks.await
+import javax.inject.Inject
 
-class GoogleAuthUiClient(
-    private val context: Context,
+class GoogleAuthUiClient @Inject constructor(
+    @ApplicationContext private val context: Context,
     private val oneTapClient: SignInClient
 ) {
     private val auth = Firebase.auth

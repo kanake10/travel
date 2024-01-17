@@ -30,18 +30,14 @@ import com.example.travel.presentation.listings.ListingScreen
 import com.example.travel.presentation.sign_in.SignInScreen
 import com.example.travel.presentation.sign_in.SignInViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import com.google.android.gms.auth.api.identity.Identity
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
-    private val googleAuthUiClient by lazy {
-        GoogleAuthUiClient(
-            context = applicationContext,
-            oneTapClient = Identity.getSignInClient(applicationContext)
-        )
-    }
+    @Inject
+    lateinit var googleAuthUiClient: GoogleAuthUiClient
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
