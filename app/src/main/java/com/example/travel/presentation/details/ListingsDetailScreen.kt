@@ -165,10 +165,12 @@ fun BookNowScreen(navController: NavController) {
         OutlinedTextField(
             value = guestCount.toString(),
             onValueChange = {
-                // Validate and update the guest count only if it's a valid integer
-                if (it.isDigitsOnly()) {
-                    guestCount = it.toInt()
-                }
+                // Validate and update the guest count
+                if (it.isNotEmpty() && it.isDigitsOnly()) {
+                    try {
+                        guestCount = it.toInt()
+                    } catch (e: NumberFormatException) {}
+                } else {}
             },
             label = { Text("Guests") },
             keyboardOptions = KeyboardOptions.Default.copy(keyboardType = KeyboardType.Number),
@@ -176,6 +178,7 @@ fun BookNowScreen(navController: NavController) {
                 .fillMaxWidth()
                 .padding(bottom = 16.dp)
         )
+
         Spacer(modifier = Modifier.height(150.dp))
         Button(
             onClick = {
