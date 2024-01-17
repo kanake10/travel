@@ -25,6 +25,14 @@ Find cool places to visit via our Travel app
 
 * CI/CD
     * Github Actions
+ 
+## Features
+* A user can log/Sign in to this app using Google.
+* A user can see a list of various properties.
+* A user can filter properties according to various amenities.
+* A user can navigate to a specific property and see its details.
+* A user can see the host details, the property amenities and the location too.
+* A user can finally select a range of dates to book a particular property.
 
 ## App Preview
 
@@ -37,5 +45,9 @@ Email | Location | Signin |Travel
 Booking UI | Date Picker |N.o of Guests |Book Button
 --- | --- | --- |---
 <img src="https://github.com/kanake10/travel/blob/main/screenshots/booking.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/datepicker.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/guests.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/day_book.png" width="280"/>
+
+Filter Amenities UI | Multiple Amenities |One Amenity |Example with Shampoo Only Property
+--- | --- | --- |---
+<img src="https://github.com/kanake10/travel/blob/main/screenshots/filter_amenities.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/multiple.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/one_amenity.png" width="280"/> | <img src="https://github.com/kanake10/travel/blob/main/screenshots/shampo_only.png" width="280"/>
 
 
