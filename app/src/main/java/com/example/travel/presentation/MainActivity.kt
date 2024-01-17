@@ -99,7 +99,8 @@ class MainActivity : ComponentActivity() {
                             )
                         }
                         composable("listings") {
-                            ListingScreen(navController = navController)
+                            googleAuthUiClient.getSignedInUser()
+                                ?.let { it1 -> ListingScreen(data = it1, navController = navController) }
                         }
                         composable(
                             route = Screen.PropertyDetailScreen.route + "/{id}",
