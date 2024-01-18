@@ -182,7 +182,7 @@ fun BookNowScreen(navController: NavController) {
         Spacer(modifier = Modifier.height(150.dp))
         Button(
             onClick = {
-                // Handle the booking logic here
+                navController.popBackStack()
             },
             modifier = Modifier
                 .fillMaxWidth()
