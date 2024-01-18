@@ -31,8 +31,10 @@ Find cool places to visit via our Travel app
 * A user can see a list of various properties.
 * A user can filter properties according to various amenities.
 * A user can navigate to a specific property and see its details.
+* A user can see the various photos of a specific property by swapping the photos in the details screen.
 * A user can see the host details, the property amenities and the location too.
 * A user can finally select a range of dates to book a particular property.
+  
 
 ## App Preview
 
